@@ -1,0 +1,24 @@
+{
+  "name": "fifaDraft",
+  "version": "0.0.0",
+  "description": "draft your fifa team",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickescallon/fifaDraft.git"
+  },
+  "author": "Nick Escallon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickescallon/fifaDraft/issues"
+  },
+  "homepage": "https://github.com/nickescallon/fifaDraft"
+}

@@ -1,0 +1,31 @@
+
+.wrapper-header {
+  position: relative;
+  height: 64px;
+}
+
+/*.container-fixed {
+  position: fixed;
+}
+
+.container-fixed.top {
+  top: 0px;
+  height: 64px;
+  width: 100%;
+}
+
+.container-fixed.center {
+  top: 64px;
+  bottom: 400px;
+  width: 100%;
+}
+
+.container-fixed.center {
+  top: 464px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.full {
+  height: 100%;
+}*/

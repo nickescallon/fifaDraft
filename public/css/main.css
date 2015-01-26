@@ -5,12 +5,27 @@ html, body {
   padding: 0;
 }
 
-.wrapper-window {
+.wrapper-full {
   height: 100%;
   width: 100%;
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.flex-item-1 { flex: 1; }
+.flex-item-2 { flex: 2; }
+.flex-item-3 { flex: 3; }
+.flex-item-4 { flex: 4; }
 
 .header {
   height: 80px;

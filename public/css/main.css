@@ -24,28 +24,22 @@ html, body {
 .flex-item-2 { flex: 2; }
 .flex-item-3 { flex: 3; }
 .flex-item-4 { flex: 4; }
+.flex-item-5 { flex: 5; }
+.flex-item-6 { flex: 6; }
+.flex-item-7 { flex: 7; }
+.flex-item-8 { flex: 8; }
+.flex-item-9 { flex: 9; }
+.flex-item-10 { flex: 10; }
 
 .header {
-  position: fixed;
   height: 80px;
-  left: 0;
-  right: 0;
   background-color: steelblue;
 }
 
-.wrapper-content {
-  position: fixed;
-  top: 80px;
-  width: 100%;
-  height: 100%;
-}
-
 .main {
-  flex: 4;
   background-color: lightslategray;
 }
 
 .footer {
-  flex: 3;
   background-color: lightsteelblue;
 }

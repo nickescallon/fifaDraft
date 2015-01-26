@@ -49,18 +49,37 @@ html, body {
 
 /*player table styles*/
 
-.content-header {
+.scroll-content-header {
   min-height: 50px;
   width:100%;
+  padding-right: 10px; /*same as custom scroll bar*/
   background-color: skyblue;
+  font-weight: bold;
+}
+
+.content-row {
+  min-height: 40px;
+}
+.content-row:nth-child(2) {
+  background-color: lightgray;
+}
+.content-row:last-child {
+  border-bottom: 1px solid lightgray;
+}
+
+
+.content-row:hover {
+  background-color: gainsboro;
 }
 
 .padded-top-bottom {
-  padding: 5px 0px 5px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .padded-left-right {
-  padding: 0px 5px 0px 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .scrollable-y {

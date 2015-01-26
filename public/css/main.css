@@ -1,2 +1,31 @@
-/*for anuglar bootrap*/
+/*for anuglar bootstrap*/
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-window {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 80px;
+  background-color: steelblue;
+}
+
+.main {
+  flex: 4;
+  background-color: lightslategray;
+}
+
+.footer {
+  flex: 3;
+  background-color: lightsteelblue;
+}

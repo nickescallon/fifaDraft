@@ -1,6 +1,3 @@
-/*for anuglar bootstrap*/
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
-
 html, body {
   height: 100%;
   width: 100%;

@@ -48,11 +48,17 @@ html, body {
 
 
 /*player table styles*/
+.title-header {
+  min-height: 25px;
+  width:100%;
+  background-color: gainsboro;
+  font-weight: bold;
+}
 
-.scroll-content-header {
+.content-header {
   min-height: 50px;
   width:100%;
-  padding-right: 10px; /*same as custom scroll bar*/
+  /*padding-right: 10px;*/ /*same as custom scroll bar*/
   background-color: skyblue;
   font-weight: bold;
 }
@@ -70,6 +76,23 @@ html, body {
 
 .content-row:hover {
   background-color: gainsboro;
+}
+
+.bordered {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.split > div {
+  border-right: 1px solid black;
+}
+.split > div:first-child {
+  border-left: 1px solid black;
+}
+
+.padded-all {
+  padding: 5px;
 }
 
 .padded-top-bottom {
@@ -93,10 +116,23 @@ html, body {
   align-items: center;
 }
 
+/*input styles*/
+
+input {
+  border-radius: 4px;
+  opacity: 0.5;
+}
+
+input.large {
+  height: 30px;
+  width: 250px;
+  font-size: large;
+}
 
 
 /*webkit scrollbar styles*/
-::-webkit-scrollbar-track {
+/*these introduces a weird right margin in chrome*/
+/*::-webkit-scrollbar-track {
   background-color: #F1EFF0;
 }
 ::-webkit-scrollbar {
@@ -106,8 +142,19 @@ html, body {
 ::-webkit-scrollbar-thumb {
   background-color: #6CAAE4;
   border: 2px solid #6CAAE4;
-}
+}*/
 
+/*responsive styles*/
+.side {display: none;}
+.only-first > div{ display: none;}
+.only-first > div:first-child{ display: flex;}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1000px) {
+  .side { display: flex;}
+  .only-first > div{ display: flex;}
+}
 
 
 

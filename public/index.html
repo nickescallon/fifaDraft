@@ -7,16 +7,30 @@
   <div class="wrapper-full flex-row">
 
     <div class="flex-item-5 flex-column">
-      <div class="header">
-        <!-- left header -->
+      <!-- left header -->
+      <div class="header flex-row padded-all">
+        <div class="flex-item-1">
+          <h1>fifaDraft</h1>
+        </div>
+
+        <div class="flex-item-3 centered">
+          it's someones turn...
+        </div>
       </div>
 
-      <div class="main flex-item-4 flex-column">
+      <div class="main flex-item-4 flex-column bordered">
         <!-- top left -->
         <!-- player search table :: pull out to directive -->
+        <!-- add filtering and ordering -->
         <!-- Note: This doesn't collapse well -->
-        <div class="scroll-content-header flex-row padded-top-bottom">
-          <div class="flex-item-2 centered">NAME</div>
+        <!-- <div class="flex-row content-row padded-top-bottom centered">
+          <input class="large" placeholder="Player Name Search..."/>
+        </div> -->
+
+        <div class="content-header flex-row padded-all">
+          <div class="flex-item-2 centered">
+            <input class="large " placeholder="Player Name Search..."/>
+          </div>
           <div class="flex-item-1 centered">POS</div>
           <div class="flex-item-1 centered">RAT</div>
           <div class="flex-item-1 centered">PAC</div>
@@ -65,25 +79,131 @@
           </div>
         </div>
 
-
       </div>
 
-      <div class="footer flex-item-3">
+      <div class="footer flex-item-3 flex-column">
         <!-- bottom left -->
+        <div class="flex-row only-first split">
+
+          <div class="flex-item-1 flex-column">
+            <div class="title-header flex-row">
+              <div class="flex-item-1 centered">My Team</div>
+            </div>
+            <!-- my team table -->
+            <div class="content-header flex-row padded-all">
+              <div class="flex-item-2 centered">PLAYER</div>
+              <div class="flex-item-1 centered">POS</div>
+              <div class="flex-item-1 centered">RAT</div>
+            </div>
+
+             <div class="wrapper-full flex-column scrollable-y">
+              <div class="flex-row content-row padded-top-bottom">
+                <div class="flex-item-2 centered">Christiano Ronaldo</div>
+                <div class="flex-item-1 centered">LW</div>
+                <div class="flex-item-1 centered">99</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-item-1 flex-column">
+            <div class="title-header flex-row">
+              <div class="flex-item-1 centered">Paine's Team</div>
+            </div>
+            <!-- my team table -->
+            <div class="content-header flex-row padded-all">
+              <div class="flex-item-2 centered">PLAYER</div>
+              <div class="flex-item-1 centered">POS</div>
+              <div class="flex-item-1 centered">RAT</div>
+            </div>
+
+             <div class="wrapper-full flex-column scrollable-y">
+              <div class="flex-row content-row padded-top-bottom">
+                <div class="flex-item-2 centered">Christiano Ronaldo</div>
+                <div class="flex-item-1 centered">LW</div>
+                <div class="flex-item-1 centered">99</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-item-1 flex-column">
+            <div class="title-header flex-row">
+              <div class="flex-item-1 centered">Egor's Team</div>
+            </div>
+            <!-- my team table -->
+            <div class="content-header flex-row padded-all">
+              <div class="flex-item-2 centered">PLAYER</div>
+              <div class="flex-item-1 centered">POS</div>
+              <div class="flex-item-1 centered">RAT</div>
+            </div>
+
+             <div class="wrapper-full flex-column scrollable-y">
+              <div class="flex-row content-row padded-top-bottom">
+                <div class="flex-item-2 centered">Christiano Ronaldo</div>
+                <div class="flex-item-1 centered">LW</div>
+                <div class="flex-item-1 centered">99</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-item-1 flex-column">
+            <div class="title-header flex-row">
+              <div class="flex-item-1 centered">Dudge's Team</div>
+            </div>
+            <!-- my team table -->
+            <div class="content-header flex-row padded-all">
+              <div class="flex-item-2 centered">PLAYER</div>
+              <div class="flex-item-1 centered">POS</div>
+              <div class="flex-item-1 centered">RAT</div>
+            </div>
+
+             <div class="wrapper-full flex-column scrollable-y">
+              <div class="flex-row content-row padded-top-bottom">
+                <div class="flex-item-2 centered">Christiano Ronaldo</div>
+                <div class="flex-item-1 centered">LW</div>
+                <div class="flex-item-1 centered">99</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
-    <div class="flex-item-2 flex-column">
+    <div class="side flex-item-2 flex-column">
       <div class="header">
         <!-- header right -->
       </div>
 
-      <div class="main flex-item-4">
+      <div class="main flex-item-4 flex-column">
         <!-- top right -->
+        <div class="title-header flex-row">
+          <div class="flex-item-1 centered">Selected Player</div>
+        </div>
+
+        <div class="flex-item-4 flex-column">
+          <!-- player image -->
+          <div class="flex-item-2">
+            some image
+          </div>
+
+          <div class="flex-item-2">
+            some info
+          </div>
+
+          <!-- buttons -->
+          <div class="flex-item-1 flex-row">
+            <div class="button flex-item-1">button 1</div>
+            <div class="button flex-item-1">button 2</div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="footer flex-item-3">
+      <div class="footer flex-item-3 flex-column">
         <!-- bottom right -->
+        <div class="title-header flex-row">
+          <div class="flex-item-1 centered">Formation Setting</div>
+        </div>
       </div>
     </div>
 
